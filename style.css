@@ -1,0 +1,28 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* banner part  */
+.banner{
+    background-color: #010A13 ;
+    border-radius: 50px;
+    width: 90%;
+    height: 80%;
+    margin:50px;
+}
+.banner-part{
+    display: flex;
+}
+.banner-info h1{
+    font-size: 80px;
+}
+.banner-info{
+    color: white;
+    width: 60%;
+    padding: 40px 0 0 40px;
+}
+.banner-img img{
+  margin-top: 40px;
+  margin-left: 50px;
+}
