@@ -49,10 +49,57 @@ body{
    
 }
 .live:hover {
-    padding-right: 25px;
+    padding-left: 25px;
   }
 
 .fa-greater-than{
     padding-left: 10px;
 }
 
+/* cart styles  */
+.cart-parent{
+    width: 90%;
+   
+    margin:50px;
+}
+.small-cart{
+    width: 20%;
+    height: 40%;
+    background-color: #010A13;
+    border-radius: 10px;
+}
+.anchor-btn{
+    padding: 20px 30px;
+    margin-top: 17px;
+    margin-left: 33px;
+    border-radius: 13px;
+    background: #FFFFFF;
+    
+}
+.group-btn{
+    padding: 20px 50px;
+}
+.blog-button{
+    padding: 20px 65px;
+    background: #DD0000;
+    color: white;
+}
+.cart-parent{
+    display: flex;
+}
+.news-cart{
+    padding-left: 30px;
+}
+.big-cart{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin-right: 30px;
+}
+.transfer{
+    border: 1px solid green;
+    padding: 10px 25px;
+    margin-top: 15px;
+    border-radius: 9px;
+    
+}
