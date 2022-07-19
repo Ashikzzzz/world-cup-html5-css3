@@ -3,7 +3,10 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-/* banner part  */
+/*----------
+ banner part
+-----------
+  */
 .banner{
     background-color: #010A13 ;
     border-radius: 50px;
@@ -23,6 +26,17 @@ body{
     padding: 40px 0 0 40px;
 }
 .banner-img img{
-  margin-top: 40px;
+  margin-top: 60px;
   margin-left: 50px;
+}
+.live{
+    background: #DD0000;
+    border-radius: 5px;
+    width: 187px;
+    height: 56px;
+    color: white;
+    font-size: 15px;
+}
+.fa-greater-than{
+    padding-left: 10px;
 }
