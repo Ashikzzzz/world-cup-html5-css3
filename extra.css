@@ -2,9 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 40px;
-    padding-right: 28px;
-    
+   padding: 30px;  
 }
 .cart-info{
     padding-left:65px;
@@ -15,6 +13,19 @@
     margin-left: 20px;
     margin: 30px;
 }
+.big-cart{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .live-2{
    visibility: hidden;
+}
+
+/* responsive part  */
+
+@media only screen and (max-width:600px) {
+    .big-cart{
+        display: grid;
+       grid-template-columns: repeat(1, 1fr); 
+    }
 }
